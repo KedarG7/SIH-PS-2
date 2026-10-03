@@ -1,0 +1,13 @@
+/* These keep the dashboard's alert treatment distinct from DaisyUI utility colors. */
+.alert-item.critical,
+.alert-item.warning,
+.alert-item.info {
+  background: transparent !important;
+  color: inherit !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+.alert-item.critical .alert-symbol { background: #ffebe7; color: #f47763; }
+.alert-item.warning .alert-symbol { background: #fff4da; color: #f1aa24; }
+.alert-item.info .alert-symbol { background: #e5f5ff; color: #2b9ee8; }
